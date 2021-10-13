@@ -7,11 +7,15 @@
     <meta charset="UTF-8">
     <title>Education Pathways</title>
 </head>
+
+
+
 <a href="https://carte.utoronto.ca/" target="_blank"><img src="/static/CARTE_logo.jpg" class="img-fluid" style="max-width: 25%"></a>
 <h1 style="text-align: center">Education Pathways</h1>
 
 <body>
     {% from "_formhelpers.html" import render_field %}
+    <h3>Search for courses</h3>
     <form method="post">
       <dl>
         {{ render_field(form.select) }}
@@ -21,11 +25,14 @@
         <p>
         {{ render_field(form.search) }}
       </p></dl>
-      <p>{{render_field(form.top)}} <input type="submit" value="Search">
+      <p>{{render_field(form.top)}} <button type="submit" class="btn btn-primary common-page-submit-btn">Search</button>
       </p></form>
-    
+
+<h3>Search Results</h3>
+<div id="results-page-table-container">
 {% for table in tables %}
             {{ table|safe }}
+</div>
 {% endfor %}
 </body>
 </html>
