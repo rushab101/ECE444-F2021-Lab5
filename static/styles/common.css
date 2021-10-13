@@ -1,0 +1,50 @@
+/*Step 1: Style the body*/
+body {
+    font-family: Verdana;
+    padding: 40px;
+    background-color: #c7f3ff;
+  }
+
+/*Step 2 Add the headers*/
+h1{
+    color: #00204E
+}
+h3{
+    color: #00204E
+}
+
+/*Step 3 Align the text to center and add a vertical margin of 20px and horizontal margin of auto*/
+.common-page-heading-container{
+    margin: 20px auto;
+    text-align: center
+}
+
+/* Step 4 Background = being, border-radius of 5px , border = transparent --> select,input*/
+.common-page-form select{
+    background-color: beige;
+    border-radius: 5px;
+    border-color: transparent;
+}
+.common-page-form input{
+    background-color: beige;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+/*Step 5 Vertical margin = 2 px, horizontal margin = auto --> common-page-form-field*/
+.common-page-form-field{
+    margin: 2px auto;
+}
+
+/* Step 6 Border thickness = 2 px solid, color = #00204E, border-radius = 20 px, padding = 20 px, vertical margin 20 px, horizontal auto  */
+.common-page-form {
+    border: 2px solid #00204E;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+  }
+  /* Step 7 Margin top value = 20 px for button */ 
+  .common-page-submit-btn {
+    margin-top: 20px;
+  }
+  

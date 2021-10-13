@@ -1,0 +1,10 @@
+/* Step 1 Vertical margin of 40 px */
+#home-page-introduction {
+    margin: 40px auto;
+}
+/* Step 2 italic, margin-top of 20 px */
+#home-page-feedback-text {
+    margin-top: 20px;
+    font-style: italic;
+    color: rgba(53, 53, 53, 0.705);
+}
