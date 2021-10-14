@@ -8,4 +8,6 @@ Result Page Form Screenshot
 ![image](https://user-images.githubusercontent.com/43216310/137230526-ddf5755a-63e3-4212-be10-57206ff06634.png)
 Result Page - Results Table
 ![image](https://user-images.githubusercontent.com/43216310/137227035-029f9951-e4ce-445a-a53d-b0e7a207cf35.png)
+Activity 6 - Comparing old UI with new UI
 
+The usability of this new UI has greatly been improved. In the old UI, when displaying the result table, there were no vertical and horizontal lines to indicate the rows and columns. With the new UI, this has been added it which ultimately makes it much easier to read the necessary information.
