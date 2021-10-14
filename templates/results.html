@@ -16,11 +16,11 @@
 <body>
     {% from "_formhelpers.html" import render_field %}
     <h3>Search for courses</h3>
-    <form method="post">
+    <form method="post" class="common-page-form">
       <dl>
         {{ render_field(form.select) }}
         <p>
-          Restrict by one of: {{ render_field(form.divisions) }} or {{ render_field(form.departments) }} or {{ render_field(form.campuses) }}
+          <br>Restrict by one of: {{ render_field(form.divisions) }} or {{ render_field(form.departments) }} or {{ render_field(form.campuses) }}
         </p> 
         <p>
         {{ render_field(form.search) }}
