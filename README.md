@@ -1,5 +1,6 @@
 # ECE444-F2021-Lab5
 This repo is a clone of https://github.com/nelaturuk/education_pathways.
+
 Activity 1 Screenshot
 ![image](https://user-images.githubusercontent.com/43216310/137226728-dd8f4668-da8c-497c-9d76-f7b445c555dc.png)
 Home Page Screenshot
